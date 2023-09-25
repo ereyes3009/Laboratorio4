@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calzado Deportivo</title>
+</head>
+
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar
+                (this)">
+                    <div class="contenedor-foto">
+                        <img src="https://images.nike.com/is/image/DotCom/DH2920_001_A_PREM?hei=3144&wid=3144&fmt=jpg&bgc=F5F5F5&iccEmbed=1"
+                            alt="zapatilla1">
+                        <p class="descripcion">NIKE MODELO 1</p>
+                        <span class="precio">S/560.00</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar
+                (this)">
+                    <div class="contenedor-foto">
+                        <img src="https://images.nike.com/is/image/DotCom/DJ4701_002_A_PREM?hei=3144&wid=3144&fmt=jpg&bgc=F5F5F5&iccEmbed=1"
+                            alt="zapatilla1">
+                        <p class="descripcion">NIKE MODELO 2</p>
+                        <span class="precio">S/500.00</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar
+                (this)">
+                    <div class="contenedor-foto">
+                        <img src="https://images.nike.com/is/image/DotCom/DM0028_001_A_PREM?hei=3144&wid=3144&fmt=jpg&bgc=F5F5F5&iccEmbed=1"
+                            alt="zapatilla1">
+                        <p class="descripcion">NIKE MODELO 3</p>
+                        <span class="precio">S/700.00</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar
+                (this)">
+                    <div class="contenedor-foto">
+                        <img src="https://images.nike.com/is/image/DotCom/DH2920_111_A_PREM?hei=3144&wid=3144&fmt=jpg&bgc=F5F5F5&iccEmbed=1"
+                            alt="zapatilla1">
+                        <p class="descripcion">NIKE MODELO 4</p>
+                        <span class="precio">S/700.00</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar
+                (this)">
+                    <div class="contenedor-foto">
+                        <img src="https://images.nike.com/is/image/DotCom/DR2395_100_A_PREM?hei=3144&wid=3144&fmt=jpg&bgc=F5F5F5&iccEmbed=1"
+                            alt="zapatilla1">
+                        <p class="descripcion">NIKE MODELO 5</p>
+                        <span class="precio">S/560.00</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar
+                (this)">
+                    <div class="contenedor-foto">
+                        <img src="https://images.nike.com/is/image/DotCom/DQ7658_300_A_PREM?hei=3144&wid=3144&fmt=jpg&bgc=F5F5F5&iccEmbed=1"
+                            alt="zapatilla1">
+                        <p class="descripcion">NIKE MODELO 6</p>
+                        <span class="precio">S/500.00</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar
+                (this)">
+                    <div class="contenedor-foto">
+                        <img src="https://images.nike.com/is/image/DotCom/DQ3987_001_A_PREM?hei=3144&wid=3144&fmt=jpg&bgc=F5F5F5&iccEmbed=1"
+                            alt="zapatilla1">
+                        <p class="descripcion">NIKE MODELO 7</p>
+                        <span class="precio">S/700.00</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar
+                (this)">
+                    <div class="contenedor-foto">
+                        <img src="https://images.nike.com/is/image/DotCom/DD9278_001_A_PREM?hei=3144&wid=3144&fmt=jpg&bgc=F5F5F5&iccEmbed=1"
+                            alt="zapatilla1">
+                        <p class="descripcion">NIKE MODELO 8</p>
+                        <span class="precio">S/700.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="https://images.nike.com/is/image/DotCom/DH2920_001_A_PREM?hei=3144&wid=3144&fmt=jpg&bgc=F5F5F5&iccEmbed=1
+                    " alt="" id="img">
+                <h2 id="modelo">NIKE MODELO </h2>
+                <p id="descripcion">Descripcion modelo 1</p>
+                <span class="precio" id="precio">S/500</span>
+                <div class="fila">
+                    <div class="size">
+                        <label for="size">Talla</label>
+                        <select name="" id="">
+                            <option value="">38</option>
+                            <option value="">40</option>
+                            <option value="">42</option>
+                            <option value="">44</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
